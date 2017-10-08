@@ -4,10 +4,10 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %></title>
+    <title>Tanvee</title>
 
     <asp:PlaceHolder runat="server">
-        <%: Scripts.Render("~/bundles/modernizr") %>
+        <!-- <%: Scripts.Render("~/bundles/modernizr") %> -->
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -17,9 +17,11 @@
     </style>
 </head>
 <body>
+    <div class="jumbotron">
+        <h1>Tanvee Desai</h1>
+        <p class="lead"> Hello! Learn more about me here</p>
+    </div>
     <form runat="server">
-    
-
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -30,7 +32,7 @@
                     </button>
                     <!--<a class="navbar-brand" runat="server" href="~/"> Home </a>-->
                 </div>
-                <div class="navbar-collapse collapse">
+                <!-- <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <!-- <li><a runat="server" href="~/">Home</a></li> -->
                         <li><a runat="server" href="~/About">About</a></li>
@@ -39,7 +41,7 @@
                         <!-- <li><a runat ="server" href="~/Culinary">Culinary</a></li> -->
                     </ul>
                 
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="container body-content">
@@ -51,10 +53,5 @@
             </footer>
         </div>
     </form>
-
-    <div class="jumbotron">
-        <h1>Tanvee Desai</h1>
-        <p class="lead"> Hello! Learn more about me here</p>
-    </div>
 </body>
 </html>
