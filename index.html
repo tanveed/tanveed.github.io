@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head runat="server">
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tanvee</title>
-    <webopt:bundlereference runat="server" path="~/Content/css" />
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <style>footer {
     font-size:8px;
 }
@@ -17,7 +15,6 @@
         <h1>Tanvee Desai</h1>
         <p class="lead"> Hello! Learn more about me here</p>
     </div>
-    <form runat="server">
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -26,28 +23,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <!--<a class="navbar-brand" runat="server" href="~/"> Home </a>-->
+                    
                 </div>
-                <!-- <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <!-- <li><a runat="server" href="~/">Home</a></li> -->
-                        <!-- <li><a runat="server" href="~/About">About</a></li> -->
-                        <!-- <li><a runat="server" href="~/Contact">Contact</a></li> -->
-                        <!-- <li><a runat ="server" href="~/Projects">Projects</a></li> -->
-                        <!-- <li><a runat ="server" href="~/Culinary">Culinary</a></li> -->
-                    </ul>
-                
-                </div> -->
             </div>
         </div>
-        <div class="container body-content">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-                <p>2017</p>
-            </footer>
-        </div>
-    </form>
+    <footer>
+        <p>2017</p>
+    </footer>
 </body>
 </html>
