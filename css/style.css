@@ -13,7 +13,8 @@ html,
 body {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  background-image: url("realbg.jpg");
+  background-image: url("sunset.jpg");
+  background-size: cover;
 }
 
 h1,
